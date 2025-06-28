@@ -1,0 +1,66 @@
+/* Custom Dante-inspired styling */
+:root {
+  --sl-color-accent: #8b5a3c;
+  --sl-color-accent-high: #a0522d;
+  --sl-color-accent-low: #f4f1ec;
+}
+
+/* Dante quote styling */
+.tercet-quote {
+  font-style: italic;
+  font-family: Georgia, serif;
+  border-left: 4px solid var(--sl-color-accent);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  background: var(--sl-color-accent-low);
+  padding: 1rem 1rem 1rem 1.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Code progression indicators */
+.code-complexity {
+  display: inline-block;
+  background: var(--sl-color-accent);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Learning objectives styling */
+.learning-objectives {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.learning-objectives h3 {
+  color: var(--sl-color-accent);
+  margin-top: 0;
+}
+
+/* Chapter navigation */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+
+.chapter-nav a {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid var(--sl-color-accent);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.chapter-nav a:hover {
+  background: var(--sl-color-accent-low);
+}
